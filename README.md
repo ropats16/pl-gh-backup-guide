@@ -10,7 +10,7 @@ To enable interaction with the Arweave network and facilitate the backing up of 
 
 - Navigate to your GitHub repository and go to the "Settings" tab.
 - Under "Secrets and variables," select "Actions" and then click "New Repository Secret."
-- Add a new secret with "Name" as WALLET, paste your Arweave wallet's JWK into the "Secret" field, and click "Add secret."
+- Add a new secret with "Name" as "WALLET", paste your Arweave wallet's JWK into the "Secret" field, and click "Add secret."
 
 Add a new secret with WALLET for "Name," your Arweave wallet's JWK in the "Secret" field, and click the "Add secret" button.
 
@@ -18,8 +18,8 @@ Add a new secret with WALLET for "Name," your Arweave wallet's JWK in the "Secre
 
 The next step is creating a new GitHub Actions workflow as follows:
 
-- Go to the "Actions" tab and click "New workflow."
-- On the "Choose a workflow" page, select "Set up a workflow yourself."
+- Go to the "Actions" tab.
+- On the "Get started with GitHub Actions" page, select "Set up a workflow yourself."
 - Copy and paste the following YAML code into the .yml file, then commit the changes:
 
 ```yaml
