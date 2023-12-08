@@ -67,7 +67,8 @@ The GitHub Action code defined in Step 2 is set to run automatically on every pu
  You can comment out the entire 'Checkout all branches' section if you only want to sync the main branch.
 
 With this setup, your GitHub repository will now be seamlessly backed up to Protocol.Land using GitHub Actions.
-Conclusion
+
+## Backup your repositories today
 
 By backing up your repository on Protocol.Land, you ensure a permanent, immutable backup with uninterrupted access. The successive updates to this backup are verifiably recorded on Arweave, maintaining the integrity of your codebase. With Arweave's guarantee of 20+ backups, the need for complex custom backup solutions on multiple platforms is eliminated.
 
